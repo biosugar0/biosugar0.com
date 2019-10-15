@@ -37,10 +37,6 @@ disableHugoGeneratorInject = false
 [author]
   name = "Yuto Kimura"
 
-#[taxonomies]
-#  tag      = "tags"
-#  category = ""
-
 [blackfriday]
   hrefTargetBlank = true
 
