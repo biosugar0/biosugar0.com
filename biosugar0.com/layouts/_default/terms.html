@@ -1,0 +1,23 @@
+{{ define "main" }}
+<main>
+    <div class="tags">
+        <h1>{{ .Title }}</h1>
+        {{ if lt 0 (len .Site.Taxonomies.tags) }}
+            <p>
+            {{ range .Site.Taxonomies.tags.ByCount }}
+                <a href="{{ $.Site.BaseURL | relURL }}tags/{{ .Name | urlize }}"><code><nobr>{{ .Name }}</nobr></code></a> &nbsp;
+            {{ end }}
+
+            {{ range .Site.Taxonomies.tags.ByCount }}
+                <h2 align="left" id="{{.Name}}">{{ .Name }}</h2>
+                <ul style="text-align:left">
+                    {{range .Pages.ByDate.Reverse}}
+                        <li><a href="{{.Permalink}}">{{.Title}} | {{.Date.Format "2006-01-02"}}</a></li>
+                    {{ end }}
+                </ul>
+            </p>
+            {{ end }}
+        {{ end }}
+    </div>
+</main>
+{{ end }}

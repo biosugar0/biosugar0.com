@@ -1,0 +1,18 @@
+<footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy;
+                <a href="{{ .Site.BaseURL }}/about">{{ .Site.Author.name }}</a>,
+                2019-{{ now.Format "2006" }}.
+                {{ .Site.Copyright| safeHTML }}
+            </span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+            <span><a href="https://github.com/biosugar0/biosugar0.com">Github</a></span>
+            <span>Theme created by <a href="https://github.com/rhazdon">rhazdon</a></span>
+        </div>
+    </div>
+</footer>

@@ -1,3 +1,85 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseurl = "https://biosugar0.com"
+languageCode = "ja"
+DefaultContentLanguage = "en"
+theme = "hello-friend-ng"
+title = "biosugar0"
+homeSubtitle = "Hello World !"
+readOtherPosts = "Read other posts"
+copyright = "All rights reserved."
+
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpored = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = true
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[author]
+  name = "Yuto Kimura"
+
+#[taxonomies]
+#  tag      = "tags"
+#  category = ""
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[params]
+
+  gitUrl = "https://github.com/biosugar0/biosugar0.com"
+  # Metadata mostly used in document's head
+  description = "Homepage and blog by biosugar0"
+  keywords = "homepage, blog, development, programming"
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # Default theme "light" or "dark"
+  defaultTheme = "light"
+
+# Social icons
+[[params.social]]
+name = "twitter"
+url  = "https://twitter.com/biosugar0"
+
+[[params.social]]
+name = "github"
+url  = "https://github.com/biosugar0"
+
+[params.logo]
+    logoText = "$cd /home/biosugar0"
+    logoHomeLink = "/"
+
+# And you can even create generic menu
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Blog"
+    url        = "/posts"
+  [[menu.main]]
+    identifier = "tags"
+    name       = "Tags"
+    url        = "/tags"
