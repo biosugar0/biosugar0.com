@@ -1,11 +1,11 @@
 {{ define "main" }}
 <main>
     <div class="tags">
-        <h1>{{ .Title }}</h1>
+        <h1 align="left">{{ .Title }}</h1>
         {{ if lt 0 (len .Site.Taxonomies.tags) }}
             <p>
             {{ range .Site.Taxonomies.tags.ByCount }}
-                <a href="{{ $.Site.BaseURL | relURL }}tags/{{ .Name | urlize }}"><code><nobr>{{ .Name }}</nobr></code></a> &nbsp;
+            <a href="{{ $.Site.BaseURL | relURL }}tags/{{ .Name | urlize }}"><code><nobr><b>{{ .Name }}</b><span>({{ .Count }})</span></nobr></code></a> &nbsp;
             {{ end }}
 
             {{ range .Site.Taxonomies.tags.ByCount }}
