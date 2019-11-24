@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hello Friend NG</title>
+    <link>https://biosugar0.com/</link>
+    <description>Recent content on Hello Friend NG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Wed, 16 Oct 2019 01:21:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://biosugar0.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>投稿テスト</title>
+      <link>https://biosugar0.com/posts/2019/10/%E6%8A%95%E7%A8%BF%E3%83%86%E3%82%B9%E3%83%88/</link>
+      <pubDate>Wed, 16 Oct 2019 01:21:00 +0900</pubDate>
+      
+      <guid>https://biosugar0.com/posts/2019/10/%E6%8A%95%E7%A8%BF%E3%83%86%E3%82%B9%E3%83%88/</guid>
+      <description>&lt;p&gt;投稿テストaaaaaaaaaaaaa&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Profile</title>
+      <link>https://biosugar0.com/about/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://biosugar0.com/about/</guid>
+      <description> Name Yuto Kimura
+Job title Software Engineer
+Screen Name biosugar0
+Country Japan
+Experience  Language
+Go,Python3,Bash
+ Other technologies
+k8s,Docker,Microservices,AWS,Clean Architecture
+  </description>
+    </item>
+    
+  </channel>
+</rss>

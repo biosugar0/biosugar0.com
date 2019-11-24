@@ -1,7 +1,7 @@
 baseurl = "https://biosugar0.com"
 languageCode = "ja"
 DefaultContentLanguage = "en"
-theme = "hello-friend-ng"
+theme = "hugo-theme-hello-friend-ng"
 title = "biosugar0"
 homeSubtitle = "Hello World !"
 readOtherPosts = "Read other posts"
