@@ -1,9 +1,3 @@
-[submodule "biosugar0.com/themes/hello-friend-ng"]
-	path = biosugar0.com/themes/hello-friend-ng
-	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng.git
-[submodule "biosugar0/themes/biosugar0/themes/hugo-theme-hello-friend-ng"]
-	path = biosugar0/themes/biosugar0/themes/hugo-theme-hello-friend-ng
-	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng.git
 [submodule "biosugar0/themes/hugo-theme-hello-friend-ng"]
 	path = biosugar0/themes/hugo-theme-hello-friend-ng
 	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng.git
