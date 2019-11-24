@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hello Friend NG</title>
+    <title>biosugar0</title>
     <link>https://biosugar0.com/</link>
-    <description>Recent content on Hello Friend NG</description>
+    <description>Recent content on biosugar0</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <language>ja</language>
+    <copyright>All rights reserved.</copyright>
     <lastBuildDate>Wed, 16 Oct 2019 01:21:00 +0900</lastBuildDate>
     
 	<atom:link href="https://biosugar0.com/index.xml" rel="self" type="application/rss+xml" />
