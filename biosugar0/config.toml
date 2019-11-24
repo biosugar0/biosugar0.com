@@ -1,18 +1,15 @@
-baseURL = "https://biosugar0.com"
-title   = "Hello Friend NG"
-
+baseurl = "https://biosugar0.com"
+languageCode = "ja"
 DefaultContentLanguage = "en"
-
 theme = "hugo-theme-hello-friend-ng"
-
-PygmentsCodeFences = true
-PygmentsStyle = "monokai"
+title = "biosugar0"
+homeSubtitle = "Hello World !"
+readOtherPosts = "Read other posts"
+copyright = "All rights reserved."
 
 rssLimit  = 10  # Maximum number of items in the RSS feed.
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
-
-# googleAnalytics = ""
-# disqusShortname = ""
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
 
 archetypeDir = "archetypes"
 contentDir   = "content"
@@ -26,7 +23,7 @@ buildExpored = false
 canonifyURLs = true
 
 enableRobotsTXT = true
-enableGitInfo   = false
+enableGitInfo   = true
 enableEmoji     = true
 enableMissingTranslationPlaceholders = false
 disableRSS     = false
@@ -38,54 +35,22 @@ disableHugoGeneratorInject = false
   posts = "/posts/:year/:month/:title/"
 
 [author]
-  name = "Jane Doe"
+  name = "Yuto Kimura"
 
 [blackfriday]
   hrefTargetBlank = true
 
-[taxonomies]
-  tag      = "tags"
-  category = "categories"
-
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
 
+  gitUrl = "https://github.com/biosugar0/biosugar0.com"
   # Metadata mostly used in document's head
-  description = "Nice theme for homepages and blogs"
-  keywords = ""
-  images = [""]
-
-  homeSubtitle = "Hello Friend NG"
-
-  # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  # gitUrl = ""
-
-  # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  disableReadOtherPosts = false
-
-  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
-  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
-  customCSS = []
-  customJS  = []
-
-  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
-  justifyContent = false  # Set "text-align: justify" to .content.
+  description = "Homepage and blog by biosugar0"
+  keywords = "homepage, blog, development, programming"
 
   # Directory name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
-
   # Default theme "light" or "dark"
-  defaultTheme = "dark"
-  themeColor = "#252627"
-
-  # Colors for favicons
-  [params.favicon.color]
-    mask = "#252627"
-    msapplication = "#252627"
-    theme = "#252627"
+  defaultTheme = "light"
 
 # Social icons
 [[params.social]]
