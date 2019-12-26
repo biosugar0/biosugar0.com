@@ -13,6 +13,7 @@ rssLimit  = 10  # Maximum number of items in the RSS feed.
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
+googleAnalytics = "UA-155074285-1"
 archetypeDir = "archetypes"
 contentDir   = "content"
 dataDir      = "data"
@@ -53,6 +54,11 @@ disableHugoGeneratorInject = false
   contentTypeName = "posts"
   # Default theme "light" or "dark"
   defaultTheme = "light"
+
+[params.favicon.color]
+mask = "#252627"
+msapplication = "#252627"
+theme = "#252627"
 
 # Social icons
 [[params.social]]
