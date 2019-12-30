@@ -48,7 +48,7 @@ disableHugoGeneratorInject = false
   gitUrl = "https://github.com/biosugar0/biosugar0.com"
   # Metadata mostly used in document's head
   description = "Homepage and blog by biosugar0"
-  keywords = "homepage, blog, development, programming"
+  keywords = "homepage, blog, development, programming, Go, AWS, Software, Engeneer, エンジニア, プログラミング"
 
   # Directory name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
