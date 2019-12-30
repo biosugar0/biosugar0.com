@@ -54,6 +54,7 @@ disableHugoGeneratorInject = false
   contentTypeName = "posts"
   # Default theme "light" or "dark"
   defaultTheme = "light"
+  username = "biosugar0"
 
 [params.favicon.color]
 mask = "#252627"
