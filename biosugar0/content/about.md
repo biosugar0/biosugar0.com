@@ -1,10 +1,8 @@
 +++
-title = "Profile"
+title = "Yuto Kimura"
 date = "2019-01-25"
 author = "Yuto Kimura"
 +++
-
-## 木村 優斗
 
 バイオインフォマティクス分野で修士(工学)を取得後、ソフトウェアエンジニアとして就職。
 2019年に[スマートマットショッピング](https://smartshopping.co.jp/AboutUs)に入社後、Go言語によるマイクロサービス製品の開発に参加し、AWS上でのEKS構築、k8sの設定などクラウドインフラなどにも携わりながら日々開発。
