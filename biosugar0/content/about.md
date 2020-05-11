@@ -31,4 +31,5 @@ Git,linux,Vim,k8s,Docker,Microservices,AWS,GCP,Terraform,Clean Architecture
 
 ## 資格
 
-* [AWS 認定ソリューションアーキテクト – アソシエイト](https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2019-10-26&ci=AWS01092887)
+* [AWS 認定ソリューションアーキテクト – アソシエイト](https://www.youracclaim.com/badges/dc880fed-a3f1-40c3-abd2-b5f7a438f4a7/public_url)
+
