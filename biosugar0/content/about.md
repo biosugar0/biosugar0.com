@@ -4,26 +4,32 @@ date = "2019-01-25"
 author = "Yuto Kimura"
 +++
 
-バイオインフォマティクス分野で修士(工学)を取得後、ソフトウェアエンジニアとして就職。
-2019年に[スマートマットショッピング](https://smartshopping.co.jp/AboutUs)に入社後、Go言語によるマイクロサービス製品の開発に参加し、AWS上でのEKS構築、k8sの設定などクラウドインフラなどにも携わりながら日々開発。
-
-テキストエディタはVim、キーボードはHHKBが好き。
+　生命情報科学分野で修士号を取得後、GCP,AWSなどのクラウドインフラのコスト管理や環境構築のためのwebサービスを扱うベンチャー企業に就職し、k8s上で動作するマイクロサービスの開発を担当。
+その後、在庫管理IoTサービスを取り扱う[スマートマットショッピング](https://smartshopping.co.jp/AboutUs)に入社。AWSを用いたk8sのクラウドインフラの構築からGo言語を用いたバックエンドのマイクロサービスの開発まで経験。
+現在も引き続き新機能の追加や運用を担当している。 テキストエディタはVim、キーボードはHHKBが好き。
 
 
 ## 経験技術
 
 * **言語**<br>
-Go,Python3,Bash
+Go,Python3,Zsh
 
 * **その他**<br>
-Git,linux,Vim,k8s,Docker,Microservices,AWS,GCP,Terraform,Clean Architecture
+Git,linux,Vim,k8s,Docker,Microservices,AWS,GCP,Terraform,Clean Architecture,GitOps
 
 
 ## 職歴
 
 * Software Engineer, 2019- &#124; [スマートマットショッピング](https://smartshopping.co.jp/AboutUs)
-  * Go (golang), Microservices, DevOps, Docker, Kubernetes,AWS
-* Others (Go, Microservices)...
+    * Go (golang), Microservices, GitOps, Docker, Kubernetes,AWS...
+    * k8sを導入したマイクロサービスアーキテクチャ基盤のインフラプロトタイプ構築
+    * 在庫管理サービスを構築するバックエンドのマイクロサービス開発
+    * k8sを使用した開発環境整備
+* Others...
+    * Go, k8s, Microservices,GCP...
+    * GCPのインフラ環境構築を支援する機能の開発
+    * マイクロサービス群が使用するRBACサービスの開発
+    * ブラウザベースのSSHセッションマネージャの開発
 
 ## 学位
 
