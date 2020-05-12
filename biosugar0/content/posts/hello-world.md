@@ -1,7 +1,7 @@
 +++
 title = "Hello world, Hello programming"
 description = "プログラマとしての原点"
-date = "2019-12-31T17:00:00+09:00"
+date = "2019-12-31"
 tags = ["ブログ"]
 +++
 
