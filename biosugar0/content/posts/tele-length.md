@@ -15,7 +15,7 @@ Telepresenceで長めの名前のDeploymentを作ろうとしたときに失敗�
 isepupaiquixuab6saephai7nahxaixeeduebu8aith8iengohdei9aig-vzkwd
 ```
 
-k8sではよく[RFC 1123](https://tools.ietf.org/html/rfc1123)で定義される以下のようなルールが適応されているらしい。
+k8sではよく[RFC 1123](https://tools.ietf.org/html/rfc1123)で定義される以下のようなDNSラベル標準に従う命名ルールが適応されているらしい。
 
 * 63文字以内
 * 英小文字、数字または「-」のみを含む
