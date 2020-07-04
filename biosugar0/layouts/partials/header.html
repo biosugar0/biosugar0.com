@@ -1,5 +1,6 @@
 <header class="header">
     <span class="header__inner">
+        {{ partial "seo_schema" . }}
         {{ partial "logo.html" . }}
 
         <span class="header__right">
@@ -16,5 +17,4 @@
             <span class="theme-toggle unselectable">{{ partial "theme-icon.html" . }}</span>
         </span>
     </span>
-    {{ partial "seo_schema" . }}
 </header>
