@@ -6,7 +6,9 @@ tags = ["kubernetes","Telepresence"]
 +++
 
 
-Telepresenceで長めの名前のDeploymentを作ろうとしたときに失敗することがあるので試してみた。
+Telepresenceで長めの名前のDeploymentを作ろうとしたときに失敗することがあるので、最大文字数がどのくらいか試してみた。
+
+<!--more-->
 結論から書くと、**最大は57文字**のようだ。
 
 ランダム文字列で作成すると、以下のようなpodができる。
