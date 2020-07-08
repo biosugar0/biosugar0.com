@@ -19,7 +19,7 @@
     "copyrightYear" : "{{ .Date.Format "2006" }}",
     "datePublished": "{{ .Date }}",
     "dateModified" : "{{ .Date }}",
-    "url" : "{{ .Permalink }}",
+    "url" : {{ .Permalink }},
     "wordCount" : "{{ .WordCount }}",
     "keywords" : [ {{ if isset .Params "tags" }}{{ range .Params.tags }}"{{ . }}",{{ end }}{{ end }}"Blog" ]
 }
