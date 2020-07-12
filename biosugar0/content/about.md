@@ -8,13 +8,16 @@ author = "Yuto Kimura"
 その後、在庫管理IoTサービスを取り扱う[スマートマットショッピング](https://smartshopping.co.jp/AboutUs)に入社。AWSを用いたk8sのクラウドインフラの構築からGo言語を用いたバックエンドのマイクロサービスの開発まで経験。
 現在も引き続き新機能の追加や運用を担当している。 テキストエディタはVim、キーボードはHHKBが好き。
 
+<!--more-->
 
 ## 経験技術
 
-* **言語**<br>
+### 言語
+
 Go,Python3,Zsh
 
-* **その他**<br>
+### その他
+
 Git,linux,Vim,k8s,Docker,Microservices,AWS,GCP,Terraform,Clean Architecture,GitOps
 
 
