@@ -1,7 +1,7 @@
 +++
 title = "マイクロサービス開発を効率化するTelepresenceのWrapperツール"
 date = "2020-07-12"
-tags = ["kubernetes","Telepresence","go"]
+tags = ["kubernetes","Telepresence","go","development"]
 +++
 
 以前、[マイクロサービスのためのローカル開発環境の記事](https://www.biosugar0.com/posts/2020/01/%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%AD%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%AB%E9%96%8B%E7%99%BA%E7%92%B0%E5%A2%83%E3%81%AE%E8%A8%98%E4%BA%8B/)を書いたが、より開発環境を便利にするためにTelepresenceのWrapperツール[tele](https://github.com/biosugar0/tele)を作った。

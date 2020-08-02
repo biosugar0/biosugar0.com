@@ -1,7 +1,7 @@
 +++
 title = "Vimのpopup windowに表示されたテキストをyankするプラグインvim-popyank"
 date = "2020-07-12"
-tags = ["Vim","vim-plugin"]
+tags = ["Vim","vim-plugin","development"]
 +++
 
 
