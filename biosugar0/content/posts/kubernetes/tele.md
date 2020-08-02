@@ -1,5 +1,5 @@
 +++
-title = "マイクロサービス開発を効率化するTelepresenceのWrapperツール"
+title = "マイクロサービス開発を効率化するTelepresenceのWrapperツールを作った。"
 date = "2020-07-12"
 tags = ["kubernetes","Telepresence","go","development"]
 +++
