@@ -1,7 +1,7 @@
 +++
 title = "go-fuzzyfinderのプレビューの高さを調節する"
 description = "go-fuzzyfinderのプレビューの高さを調節する"
-date = "2020-08-03"
+date = "2020-08-02"
 tags = ["Go"]
 +++
 
