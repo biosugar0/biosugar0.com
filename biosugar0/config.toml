@@ -72,10 +72,10 @@ url  = "https://twitter.com/biosugar0"
 [[params.social]]
 name = "github"
 url  = "https://github.com/biosugar0"
-
 [params.logo]
     logoText = "$cd /home/biosugar0"
     logoHomeLink = "/"
+    logoColor = "#2189c8"
 
 # And you can even create generic menu
 [menu]
