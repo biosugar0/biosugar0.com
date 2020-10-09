@@ -55,6 +55,7 @@ disableHugoGeneratorInject = false
   # Default theme "light" or "dark"
   defaultTheme = "light"
   username = "biosugar0"
+  highlightColor = "#2189c8"
 
 [params.favicon.color]
 mask = "#252627"
