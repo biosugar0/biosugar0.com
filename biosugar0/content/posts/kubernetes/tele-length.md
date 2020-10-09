@@ -27,5 +27,5 @@ k8sではよく[RFC 1123](https://tools.ietf.org/html/rfc1123)で定義される
 
 ハイフン以降に5文字のpodを区別するためのランダム文字列が自動でつくが、これの最小が5文字だとすると、合計63文字になるのでそのへんが理由かなと思ったがどうなんだろう。
 
-63文字はここでチェックしてるようだ。
-https://github.com/kubernetes/kubernetes/blob/7f2d0c0f710617ef1f5eec4745b23e0d3f360037/pkg/util/validation.go#L40-L46
+63文字は[ここ](https://github.com/kubernetes/kubernetes/blob/7f2d0c0f710617ef1f5eec4745b23e0d3f360037/pkg/util/validation.go#L40-L46)でチェックしてるようだ。
+
