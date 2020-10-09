@@ -3,6 +3,7 @@ title = "Telepresenceで作成するDeploymentに使える文字数の最大"
 description = "Telepresenceで作成するDeploymentに使える文字数の最大"
 date = "2020-07-01"
 tags = ["kubernetes","Telepresence"]
+slug = "telepresence-max-len"
 +++
 
 

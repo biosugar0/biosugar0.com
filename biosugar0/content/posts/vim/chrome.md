@@ -3,6 +3,7 @@ title = "VimでChromeを操作するプラグインchrome.vimを作った"
 description = "VimでChromeを操作するプラグインを作った"
 date = "2020-08-02"
 tags = ["Vim","vim-plugin","development"]
+slug = "chrome-vim"
 +++
 
 普段ターミナル上のVimでコードを書いていると、ちょっとググりたいときにChromeを操作する。

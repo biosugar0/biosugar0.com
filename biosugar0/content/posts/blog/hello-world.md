@@ -3,6 +3,7 @@ title = "Hello world, Hello programming"
 description = "プログラマとしての原点"
 date = "2019-12-31"
 tags = ["ブログ"]
+slug = "hello-world"
 +++
 
 大学3年生の9月、所属していた生命理工学専攻で唯一コンピュータのみを使用して研究室に入った。

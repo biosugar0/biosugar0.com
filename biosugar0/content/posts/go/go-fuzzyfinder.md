@@ -3,6 +3,7 @@ title = "go-fuzzyfinderのプレビューの高さを調節する"
 description = "go-fuzzyfinderのプレビューの高さを調節する"
 date = "2020-08-02"
 tags = ["Go"]
+slug = "go-fuzzyfinder"
 +++
 
 Goで簡単にfuzzy-finderのインターフェイスを用意してくれるライブラリ
