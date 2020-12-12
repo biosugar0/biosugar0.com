@@ -7,10 +7,12 @@ slug = "mac-sleep"
 +++
 
 普段MacBook Proを使っているが、スリープをするのにGUIでやるのが面倒になったのでターミナルからスリープするaliasを設定した。
-
 <!--more-->
 
-```sh
+
+`~/.zshrc`に
+
+```zsh
 alias ms='pmset sleepnow'
 ```
 
