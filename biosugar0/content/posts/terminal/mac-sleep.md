@@ -12,7 +12,7 @@ slug = "mac-sleep"
 
 `~/.zshrc`に
 
-```zsh
+```sh
 alias ms='pmset sleepnow'
 ```
 

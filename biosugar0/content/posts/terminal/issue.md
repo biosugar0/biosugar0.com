@@ -12,9 +12,9 @@ slug = "issue"
 
 `~/.zshrc`に
 
-```zsh
+```sh
 function issue(){
-  open "https://github.com/${repo-owner}/${repo-name}/issues?q=is:issue+is:open+$1"
+  open "https://github.com/${repoOwner}/${repoName}/issues?q=is:issue+is:open+$1"
 }
 ```
 
