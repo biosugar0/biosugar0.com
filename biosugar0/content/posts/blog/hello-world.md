@@ -2,7 +2,7 @@
 title = "Hello world, Hello programming"
 description = "プログラマとしての原点"
 date = "2019-12-31"
-tags = ["ブログ"]
+tags = ["blog"]
 slug = "hello-world"
 +++
 
