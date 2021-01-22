@@ -58,6 +58,7 @@ disableHugoGeneratorInject = false
   highlightColor = "#2189c8"
   opengraph = true
   images = ["/images/biosugar0.png"]
+  amazonTag = ""
 
 [params.favicon.color]
 mask = "#252627"
