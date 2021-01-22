@@ -13,7 +13,6 @@ rssLimit  = 10  # Maximum number of items in the RSS feed.
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
-googleAnalytics = "UA-155074285-1"
 archetypeDir = "archetypes"
 contentDir   = "content"
 dataDir      = "data"
@@ -45,6 +44,7 @@ disableHugoGeneratorInject = false
 
 [params]
 
+  ganalytics = "UA-155074285-1"
   gitUrl = "https://github.com/biosugar0/biosugar0.com"
   # Metadata mostly used in document's head
   description = "Homepage and blog by biosugar0"
