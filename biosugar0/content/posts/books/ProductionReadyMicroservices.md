@@ -1,7 +1,7 @@
 +++
 title = "プロダクションレディマイクロサービスを読んだ。"
 description = "プロダクションレディマイクロサービスを読んだ。"
-date = "2021-01-16"
+date = "2021-01-24"
 tags = ["Books"]
 slug = "production-ready-microservices"
 +++
