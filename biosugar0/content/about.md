@@ -11,7 +11,7 @@ author = "Yuto Kimura"
 その後、在庫管理IoTサービスを取り扱う[スマートマットショッピング](https://smartshopping.co.jp/AboutUs)に入社。
 在庫管理のためのWebアプリケーションを構成するマイクロサービスの開発を担当。
 AWSを用いたk8sのクラウドインフラの構築からGo言語を用いたバックエンドのマイクロサービスの開発まで経験。
-現在も引き続き新機能の追加や運用を担当している。
+現在はバックエンドエンジニア兼SREとして新機能の開発やインフラ基盤運用の効率化などに取り組んでいる。愛用
 
 
 テキストエディタはVim、キーボードはHHKBが好き。
@@ -23,10 +23,12 @@ AWSを用いたk8sのクラウドインフラの構築からGo言語を用いた
 * Software Engineer, 2019- &#124; [スマートマットショッピング](https://smartshopping.co.jp/AboutUs)
     * Go (golang), Microservices,Docker,Kubernetes,DDD
     * AWS,Terraform,GitOps
-    * k8sを導入したマイクロサービスアーキテクチャ基盤のインフラプロトタイプ構築
+    * 在庫管理SaaSのフルリプレイス
+    * EKSのインフラ構成をterraformで定義し、開発環境を構築。
+    * Github Actionsを用いたGitOps
     * 在庫管理サービスを構築するバックエンドのマイクロサービス開発
-    * k8sを使用した開発環境整備
     * マイクロサービスを横断したサービスのヘルススコアを算出するシステムの構築
+    * EKSの推奨リソース設定値の可視化
 * Others...
     * Go, k8s, Microservices,GCP...
     * GCPのインフラ環境構築を支援する機能の開発
