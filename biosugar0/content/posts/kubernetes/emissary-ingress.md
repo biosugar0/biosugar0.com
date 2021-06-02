@@ -32,6 +32,7 @@ slackのチャンネル名も旧名で検索ができるので影響なし。
 現時点での最新のリリースは
 [Ambassador 1.13.6](https://github.com/emissary-ingress/emissary/releases/tag/v1.13.6)だが、
 次のリリースからはEmissaryに変更されるのだろうか？
+docker pullの参照先も変わるかな？今はまだ`docker.io/datawire/ambassador:1.13.6`のようだ。
 
 いつまでも古い名前を使うのもあれなので、リリースしたら変更しようと思う。
 今後も便利になっていくのを期待したい。
