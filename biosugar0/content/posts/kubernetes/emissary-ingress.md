@@ -26,7 +26,7 @@ CNCFのIncubating Projectは、ArgoやgRPCなども含まれるCNCDの習熟度�
 
 
 1. GithubのURLが https://github.com/datawire/ambassador からhttps://github.com/emissary-ingress/emissary に変更
-2. Datawire OSSslackの#ambassador チャンネルが #emissaryに変更
+2. Datawire OSS slackの#ambassador チャンネルが #emissaryに変更
 
 
 くらい。
