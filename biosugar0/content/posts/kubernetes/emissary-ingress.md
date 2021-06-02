@@ -5,10 +5,13 @@ tags = ["kubernetes","microservices","Ambassador API Gateway","Emissary Ingress"
 slug = "ambassador-to-emissary"
 +++
 
+
+## Ambassador API Gateway
 [Ambassador API Gateway](https://www.getambassador.io/products/api-gateway/)は、Kubernetes,Envoy上で動くマイクロサービス向けのAPI Gatewayだ。
 パスルーティングや認証、タイムアウトやカナリアリリースなど数多くの機能を備えている。
 
 いつも便利に使っているが、このたび[CNCF Incubating Projectに参加](https://blog.getambassador.io/emissary-ingress-ambassadors-api-gateway-is-officially-an-incubation-project-at-the-cncf-5030a3754c2)したことでEmissary-Ingressと名前も変わったようだ。
+
 
 <!--more-->
 
@@ -16,8 +19,9 @@ slug = "ambassador-to-emissary"
 今年の4月に発表されていたのに気づかなかった。
 https://blog.getambassador.io/emissary-ingress-ambassadors-api-gateway-is-officially-an-incubation-project-at-the-cncf-5030a3754c2
 
-
 CNCFのIncubating Projectは、ArgoやgRPCなども含まれるCNCDの習熟度レベルで言うと3段階のうちの真ん中のレベルのプロジェクトだ。
+
+## 変更点
 このタイミングでの改名での影響としては、自分の観測範囲では
 
 
@@ -26,7 +30,7 @@ CNCFのIncubating Projectは、ArgoやgRPCなども含まれるCNCDの習熟度�
 
 
 くらい。
-ただ、古いGithub URLは引き続き機能するので既存の実行中のシステムには影響はないだろう。
+ただ、**古いGithub URLは引き続き機能するので既存の実行中のシステムには影響はない**だろう。
 slackのチャンネル名も旧名で検索ができるので影響なし。
 
 現時点での最新のリリースは
