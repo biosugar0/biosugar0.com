@@ -1,6 +1,6 @@
 +++
 title = "Ambassador API GatewayがCNCF Incubating Projectに参加しEmissary Ingressに改名。実行中システムには影響なし。"
-date = "2021-06-03"
+date = "2021-06-03 01:20:22.908 +0900"
 tags = ["kubernetes","microservices","Ambassador API Gateway","Emissary Ingress"]
 slug = "ambassador-to-emissary"
 +++

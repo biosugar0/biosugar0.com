@@ -43,7 +43,6 @@ disableHugoGeneratorInject = false
   hrefTargetBlank = true
 
 [params]
-
   ganalytics = "UA-155074285-1"
   gitUrl = "https://github.com/biosugar0/biosugar0.com"
   # Metadata mostly used in document's head
