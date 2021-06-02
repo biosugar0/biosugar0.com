@@ -10,6 +10,8 @@ slug = "ambassador-to-emissary"
 
 いつも便利に使っているが、このたび[CNCF Incubating Projectに参加](https://blog.getambassador.io/emissary-ingress-ambassadors-api-gateway-is-officially-an-incubation-project-at-the-cncf-5030a3754c2)したことでEmissary-Ingressと名前も変わったようだ。
 
+<!--more-->
+
 
 今年の4月に発表されていたのに気づかなかった。
 https://blog.getambassador.io/emissary-ingress-ambassadors-api-gateway-is-officially-an-incubation-project-at-the-cncf-5030a3754c2
