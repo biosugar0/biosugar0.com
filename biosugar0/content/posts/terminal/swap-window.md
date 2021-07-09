@@ -17,6 +17,8 @@ bind-key -n M-Right swap-window -t +1
 
 current windowも一緒に移動したい場合は以下のように設定することで実現できる。
 
+<!--more-->
+
 ```
 # 現在のwindowを左右に動かす
 bind -n M-Left run "tmux swap-window -t -1 && tmux previous-window"
