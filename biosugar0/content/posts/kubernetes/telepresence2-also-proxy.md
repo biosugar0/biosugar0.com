@@ -1,6 +1,5 @@
 +++
 title = "Telepresence2でAWS ElastiCacheエンドポイントのようなプライベートIPアドレスに接続する"
-description = "Telepresence2でAWS ElastiCacheエンドポイントのようなプライベートIPアドレスに接続する"
 date = "2021-07-17"
 tags = ["microservices","kubernetes","Telepresence2"]
 slug = "telepresence2-also-proxy"
