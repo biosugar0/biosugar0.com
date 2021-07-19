@@ -40,6 +40,7 @@ function k-update(){
   fi
 
   kubectl  config set "clusters.${clusterARN}.certificate-authority-data" "${crt}"
+  kubectl config use-context $clusterARN
 }
 ```
 
@@ -49,5 +50,6 @@ function k-update(){
 2. シェルのプロセス置換を利用してkubectl が`dry-run`結果(認証情報更新済み)をconfigとして使用するようにし、認証情報 `certificate-authority-data` のみを取り出す。
 3. 新しいクラスターの場合はそのまま`dry-run`結果を`~/.kube/config`に保存
 4. 既に設定が存在するクラスターの場合は認証情報 `certificate-authority-data` のみを`dry-run`結果(認証情報更新済み)のものに更新
+5. Current contextの切り替え
 
 これで `k-update` を叩くことで認証情報が更新され、手で書き加えた設定も消えないということになります。
