@@ -1,5 +1,5 @@
 +++
-title = "EKSでkubeconfigの認証情報のみを更新する"
+title = "EKSでkubeconfigの認証情報とエンドポイントのみを更新する"
 date = "2021-07-18 00:10:00 +0900"
 tags = ["microservices","kubernetes","Telepresence2","EKS"]
 slug = "rewright-auth-kubeconfig"
@@ -14,7 +14,7 @@ aws eks update-kubeconfig --name my-cluster
 ```
 
 を叩いてconfigに手で書き加えた設定が消えてしまうことでした。
-これをどう解決するかというと、タイトル通り認証情報のみを書き換えます。
+これをどう解決するかというと、タイトル通り認証情報とエンドポイントのみを書き換えます。
 
 <!--more-->
 
@@ -25,12 +25,16 @@ function k-update(){
   clusterName="my-cluster"
   awsID="*****"
   region="ap-northeast-1"
-
   clusterARN="arn:aws:eks:${region}:${awsID}:cluster/${clusterName}"
-  jsonPathString="{.clusters[?(@.name == \"$clusterARN\")].cluster.certificate-authority-data}"
-
   kubeConfig=$(aws eks update-kubeconfig --name ${clusterName} --profile prd-admin --dry-run | base64)
-  crt=$(kubectl --kubeconfig <(echo "${kubeConfig}" | base64 -d ) config view --raw -o jsonpath="${jsonPathString}")
+
+  # 認証情報取得
+  jsonPathStringAuth="{.clusters[?(@.name == \"$clusterARN\")].cluster.certificate-authority-data}"
+  crt=$(kubectl --kubeconfig <(echo "${kubeConfig}" | base64 -d ) config view --raw -o jsonpath="${jsonPathStringAuth}")
+
+  # EKSエンドポイント取得
+  jsonPathStringServer="{.clusters[?(@.name == \"$clusterARN\")].cluster.server}"
+  server=$(kubectl --kubeconfig <(echo "${kubeConfig}" | base64 -d ) config view --raw -o jsonpath="${jsonPathStringServer}")
 
   current=$(kubectl config get-clusters | grep ${clusterARN})
   if [ "${current}" = "" ]; then
@@ -39,7 +43,8 @@ function k-update(){
       return
   fi
 
-  kubectl  config set "clusters.${clusterARN}.certificate-authority-data" "${crt}"
+  kubectl config set "clusters.${clusterARN}.certificate-authority-data" "${crt}"
+  kubectl config set "clusters.${clusterARN}.server" "${server}"
   kubectl config use-context $clusterARN
 }
 ```
@@ -47,9 +52,9 @@ function k-update(){
 これは何をやっているかというと、以下のようなことをしています。
 
 1. aws eks update-kubeconfig を `--dry-run` をつけて実行することで標準出力のみに出力
-2. シェルのプロセス置換を利用してkubectl が`dry-run`結果(認証情報更新済み)をconfigとして使用するようにし、認証情報 `certificate-authority-data` のみを取り出す。
+2. シェルのプロセス置換を利用してkubectl が`dry-run`結果(認証情報更新済み)をconfigとして使用するようにし、認証情報 `certificate-authority-data` と エンドポイント `server` を取り出す。
 3. 新しいクラスターの場合はそのまま`dry-run`結果を`~/.kube/config`に保存
-4. 既に設定が存在するクラスターの場合は認証情報 `certificate-authority-data` のみを`dry-run`結果(認証情報更新済み)のものに更新
+4. 既に設定が存在するクラスターの場合は認証情報 `certificate-authority-data` と `server` を`dry-run`結果(認証情報更新済み)のものに更新
 5. Current contextの切り替え
 
-これで `k-update` を叩くことで認証情報が更新され、手で書き加えた設定も消えないということになります。
+これで `k-update` を叩くことで認証情報とエンドポイントが更新され、手で書き加えた設定も消えないということになります。
