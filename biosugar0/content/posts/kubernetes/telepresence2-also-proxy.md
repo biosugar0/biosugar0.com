@@ -45,6 +45,26 @@ AlsoProxyの設定は、extensionsの部分です。
 
 このようにIPアドレスの範囲を指定することで、それに当てはまるアウトバウンドはTelepresenceによってプロキシされてクラスター内からの通信のように振る舞うので、クラスター内からの通信しかできないAWS ElastiCacheエンドポイントのような接続先とも通信できるようになります。
 
+
+### 追記 
+
+(2021年7月28日追記)
+2021年7月23日にリリースされたv2.3.7から`telepresence status` コマンドでAlsoProxyの設定状態を確認することができます。
+
+```
+INFO[0000] No config found. Using default
+Root Daemon: Running
+  Version   : v2.3.7 (api 3)
+  DNS       :
+    Local IP        : <nil>
+    Remote IP       : <nil>
+    Exclude suffixes: [.arpa .com .io .net .org .ru]
+    Include suffixes: []
+    Timeout         : 4s
+  Also Proxy: (1 subnets)
+    - 172.29.0.0/16
+```
+
 ### 残された課題
 
 これで機能としては実用的になったと思うのですが、この設定ファイルに設定するという方法だと
