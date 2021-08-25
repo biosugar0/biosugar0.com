@@ -1,6 +1,5 @@
 +++
 title = "vim-altrを使ってGoのテストファイルにジャンプする際に存在しなかったらファイルを作る設定"
-description = "vim-altrを使ってGoのテストファイルにジャンプする際に存在しなかったらファイルを作る設定"
 date = "2021-08-26 01:03:00 +0900"
 tags = ["Vim","Go"]
 slug = "vim-altr-new"
