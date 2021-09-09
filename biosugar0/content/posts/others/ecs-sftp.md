@@ -10,6 +10,7 @@ slug = "ecs-sftp"
 * SFTPはhttps://github.com/atmoz/sftp を利用
 * S3のマウントは https://github.com/kahing/goofys を利用
 
+<!--more-->
 
 ## 1. Dockerfile
 SFTPサーバをたてるのはatmoz/sftpを利用するので、

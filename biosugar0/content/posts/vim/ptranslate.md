@@ -8,6 +8,7 @@ slug = "vim-ptranslate"
 [前回の記事](http://localhost:1313/posts/2020/07/vim%E3%81%AEpopup-window%E3%81%AB%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%9F%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%82%92yank%E3%81%99%E3%82%8B%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3vim-popyank/)で述べたvim のpopup windowに表示されたテキストをyankするプラグイン[vim-popyank](https://github.com/biosugar0/vim-popyank)と、google翻訳をするプラグイン[translate.vim](https://github.com/skanehira/translate.vim)を使って便利な設定をしたのでメモ。
 
 以下のように[vim-lsp](https://github.com/prabirshrestha/vim-lsp)経由の警告popup(もちろん他のpopupも)を翻訳することができる。
+<!--more-->
 
 ![ptranslate](/images/ptranslate.gif)
 

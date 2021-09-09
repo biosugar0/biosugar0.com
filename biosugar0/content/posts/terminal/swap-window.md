@@ -7,17 +7,17 @@ slug = "tmux-swap-window"
 
 
 tmuxで現在のwindowを左右に入れ替えるときに、ググるとよく出てくるのが以下のような設定だ。
+しかしこれだと、フォーカスが当たっているcurrent windowは移動前の位置にいるままになってしまう。
+<!--more-->
 
 ```
 bind-key -n M-Left swap-window -t -1
 bind-key -n M-Right swap-window -t +1
 ```
 
-しかしこれだと、フォーカスが当たっているcurrent windowは移動前の位置にいるままになってしまう。
 
 current windowも一緒に移動したい場合は以下のように設定することで実現できる。
 
-<!--more-->
 
 ```
 # 現在のwindowを左右に動かす
