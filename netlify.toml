@@ -1,6 +1,6 @@
 [context.production.environment]
 HUGO_VERSION = "0.89.1"
-HUGO_ENV = "biosugar0/production"
+HUGO_ENV = "production"
 [build]
-publish = "public"
+publish = "biosugar0/public"
 command = "hugo --theme=dimension --gc --minify"
