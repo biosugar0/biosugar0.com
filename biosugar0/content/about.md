@@ -28,7 +28,7 @@ AWSを用いたKubernetesのクラウドインフラの構築からGoを用い�
     * AWS,Terraform,GitOps
     * 在庫管理SaaSのフルリプレイス
     * EKSのインフラ構成をterraformで定義し、開発環境を構築。
-    * Github Actionsを用いたGitOps
+    * Github Actionsを用いたGitOpsによるデプロイフローの構築
     * 在庫管理サービスを構築するバックエンドのマイクロサービス開発
     * マイクロサービスを横断したサービスのヘルススコアを算出するシステムの構築
     * EKSの推奨リソース設定値の可視化
