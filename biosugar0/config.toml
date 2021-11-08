@@ -88,6 +88,10 @@ url  = "https://github.com/biosugar0"
     name       = "Blog"
     url        = "/posts"
   [[menu.main]]
+    identifier = "bookshelf"
+    name       = "BookShelf"
+    url        = "/bookshelf"
+  [[menu.main]]
     identifier = "tags"
     name       = "Tags"
     url        = "/tags"
