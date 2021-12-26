@@ -27,7 +27,7 @@ AWSを用いたKubernetesのクラウドインフラの構築からGoを用い�
 ## 職歴
 
 * SRE, 2021- &#124; [スマートマットショッピング](https://smartshopping.co.jp/AboutUs)
-    * SREチームの役割、ミッション定義の明文化からSREチームの立ち上げ
+    * SREチームの役割、ミッション定義の明文化からSREチームの再立ち上げ
 * Backend Engineer, 2019-2021 &#124; [スマートマットショッピング](https://smartshopping.co.jp/AboutUs)
     * Go (golang), Microservices,Docker,Kubernetes,DDD
     * AWS,Terraform,GitOps
