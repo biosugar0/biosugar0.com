@@ -23,6 +23,8 @@ author = "Yuto Kimura"
 * [カイゼン・ジャーニー](https://www.amazon.co.jp/dp/B078HZKLMB)
 * [アジャイルサムライ](https://www.amazon.co.jp/dp/B00J1XKB6K)
 * [チーム・ジャーニー](https://www.amazon.co.jp/dp/B0836CF21D)
+* [OKR](https://www.amazon.co.jp/dp/B07B2R1ZDL)
+* [チームトポロジー](https://www.amazon.co.jp/dp/B09MS8BML8)
 
 ## その他
 
