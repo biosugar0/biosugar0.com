@@ -28,6 +28,9 @@ AWSを用いたKubernetesのクラウドインフラの構築からGoを用い�
 
 * SRE, 2021- &#124; [スマートマットショッピング](https://smartshopping.co.jp/AboutUs)
     * SREチームの役割、ミッション定義の明文化からSREチームの再立ち上げ
+    * SREのプロダクト開発チームとの連携方法の策定
+    * SREロードマップの作成
+    * 運用負荷の計測と可視化 - [トイルの計測とトラッキングを始めました](https://tech.smartshopping.co.jp/measure-toil)
 * Backend Engineer, 2019-2021 &#124; [スマートマットショッピング](https://smartshopping.co.jp/AboutUs)
     * Go (golang), Microservices,Docker,Kubernetes,DDD
     * AWS,Terraform,GitOps
