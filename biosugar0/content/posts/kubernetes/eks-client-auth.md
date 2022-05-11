@@ -1,5 +1,5 @@
 +++
-title = "kubectlv1.24によるEKS操作のためにawscliをv2.6.3に更新した"
+title = "kubectl v1.24によるEKS操作のためにawscliをv2.6.3に更新した"
 date = "2022-05-10"
 tags = ["kubernetes","AWS","EKS"]
 slug = "eks-client-auth"
