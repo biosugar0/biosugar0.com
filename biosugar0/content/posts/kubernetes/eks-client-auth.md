@@ -21,13 +21,13 @@ aws eks update-kubeconfig
 aws eks update-kubeconfig
 ```
 
-を実行すると
+を実行するとkubectlでの操作の際に
 
 ```
 invalid apiVersion "client.authentication.k8s.io/v1alpha1"
 ```
 
-のエラーが出て認証情報の更新が不可能になっていました。
+のエラーが出て認証が通らなくなっていました。
 
 
 ## 解決策
