@@ -13,6 +13,8 @@ aws eks update-kubeconfig
 ```
 が従来想定していた `client.authentication.k8s.io/v1alpha1` APIが1.24で削除されました。
 
+<!--more-->
+
 > - The `client.authentication.k8s.io/v1alpha1` ExecCredential has been removed. If you are using a client-go credential plugin that relies on the v1alpha1 API please contact the distributor of your plugin for instructions on how to migrate to the v1 API. ([#108616](https://github.com/kubernetes/kubernetes/pull/108616), [@margocrawf](https://github.com/margocrawf))
 
 
