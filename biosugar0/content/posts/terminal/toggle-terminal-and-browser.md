@@ -1,6 +1,5 @@
 +++
 title = "Control連打でターミナルとChromeをスムーズに行き来する設定(Mac)"
-description = "Control連打でターミナルとChromeをスムーズに行き来する設定"
 date = "2022-08-19 22:54:00 +0900"
 tags = ["Terminal"]
 slug = "toggle-terminal-and-browser"
