@@ -25,6 +25,9 @@ bind M-e display-popup -E "tmux list-sessions -F '#S' | grep -v \"^$(tmux displa
 
 ![session](/images/popup-session.png)
 
+fzfで曖昧検索して切り替えができる。
+見た目は操作してる画面の真ん中にpopup メニューが出てくる感じ。
+
 
 window切り替えもできる。
 ```
