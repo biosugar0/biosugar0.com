@@ -160,10 +160,10 @@ brew install --cask karabiner-elements
 何をしているかというと、以下の設定をしています。
 
 1. Controlを押すとKarabiner内部の `left_control_key` 変数が1になる
-2. `left_control_key` 変数が1の時、
+2. `left_control_key` 変数が1かつもう一度Controlを押した時、
     * ターミナルにフォーカスが当たっている時はAppleScriptでChromeをActiveにする
     * ターミナルにフォーカスが当たっていない時はAppleScriptでターミナルをActiveにする
-3. Controlキーを押してから500ms経過した時と、最初のキーと違うキーを押した場合に `left_control_key` 変数の値を初期化する
+3. Controlキーを押してから500ms経過した時と、最初のキーと違うキーを押した場合に `left_control_key` 変数の値を0に初期化する
 
 
 これでControl連打でターミナルとChromeをスムーズに行き来できるようになりました。
