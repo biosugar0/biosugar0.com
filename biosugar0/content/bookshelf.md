@@ -25,6 +25,7 @@ author = "Yuto Kimura"
 * [チーム・ジャーニー](https://www.amazon.co.jp/dp/B0836CF21D)
 * [OKR](https://www.amazon.co.jp/dp/B07B2R1ZDL)
 * [チームトポロジー](https://www.amazon.co.jp/dp/B09MS8BML8)
+* [LeanとDevOpsの科学](https://www.amazon.co.jp/dp/B07L2R3LTN)
 
 ## その他
 
