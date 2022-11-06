@@ -4,7 +4,10 @@ date = "2019-01-25"
 author = "Yuto Kimura"
 +++
 
-元バックエンドエンジニアのSRE。
+元バックエンドエンジニアのSRE。好きな言葉は
+> 通常運用中のシステムに人手が必要なら、それはバグだ
+> -- Carla Geisser、Google SRE
+
 エンジニア{{< engineerYear >}}年目。
 情報分子生物学分野で修士号を取得後、GCP,AWSなどのクラウドインフラのコスト管理や環境構築のためのwebサービスを扱うベンチャー企業に就職、k8s上で動作するマイクロサービスの開発を担当。
 
@@ -24,49 +27,6 @@ AWSを用いたKubernetesのクラウドインフラの構築からGoを用い�
 
 <!--more-->
 
-## 職歴
+## 職務経歴
 
-* SRE, 2021- &#124; [スマートマットショッピング](https://smartshopping.co.jp/AboutUs)
-    * SREチームの役割、ミッション定義の明文化からSREチームの再立ち上げ
-    * SREのプロダクト開発チームとの連携方法の策定
-    * SREロードマップの作成
-    * 運用負荷の計測と可視化 - [トイルの計測とトラッキングを始めました](https://tech.smartshopping.co.jp/measure-toil)
-* Backend Engineer, 2019-2021 &#124; [スマートマットショッピング](https://smartshopping.co.jp/AboutUs)
-    * Go (golang), Microservices,Docker,Kubernetes,DDD
-    * AWS,Terraform,GitOps
-    * 在庫管理SaaSのフルリプレイス
-    * EKSのインフラ構成をterraformで定義し、開発環境を構築。
-    * Github Actionsを用いたGitOpsによるデプロイフローの構築
-    * 在庫管理サービスを構築するバックエンドのマイクロサービス開発
-    * マイクロサービスを横断したサービスのヘルススコアを算出するシステムの構築
-    * EKSの推奨リソース設定値の可視化
-    * 在庫管理SaaSへの医療機関向け発注方法追加
-    * EKSにてAWS Secrets & Configuration Provider を Kubernetes Secrets Store CSI Driver で使用する検証
-    * 在庫管理SaaSの発注条件の追加
-    * Go製アプリケーションの自動テスト整備(moqの導入、テスト実装、GitHub Actions設定など)
-    * 在庫管理SaaSの在庫パラメータ変更体験の向上のための機能開発
-* Others...
-    * Go, k8s, Microservices,GCP...
-    * GCPのインフラ環境構築を支援する機能の開発
-    * マイクロサービス群が使用するRBACサービスの開発
-    * ブラウザベースのSSHセッションマネージャの開発
-
-## 学位
-
-修士(工学) &#124; 情報分子生物学専攻
-
-## 資格
-
-* [AWS 認定ソリューションアーキテクト – アソシエイト](https://www.youracclaim.com/badges/dc880fed-a3f1-40c3-abd2-b5f7a438f4a7/public_url)
-
-## 受賞
-
-### 2021年MVP受賞, 2021-12 &#124; [スマートマットショッピング](https://smartshopping.co.jp/AboutUs)
-2021年一番輝いた従業員に送られるMVPを受賞。
-
-以下のような事項を総合的に評価していただきました。
-* 開発環境の改善に対するモチベーション高く、オーナーシップもって検証、共有する姿勢。有用な情報はドキュメントとして横展開され再現性も意識されている
-* エンジニア外からの問い合わせを介してお客様の課題や運用上の課題に対し積極的に対応した(エンジニアへの問い合わせのほぼ半分)
-* 理想的なSREチームを構築していくために、現状の課題感と共に、解決のための提案と実行を周囲を巻き込みながら推進した
-など
-
+[https://github.com/biosugar0/curriculum-vitae](https://github.com/biosugar0/curriculum-vitae)
