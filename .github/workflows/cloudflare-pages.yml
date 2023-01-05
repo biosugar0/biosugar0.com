@@ -16,10 +16,11 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
+          hugo-version: '0.102.3'
           extended: true
       - run: cd biosugar0 && hugo --gc --minify
         env:
+          HUGO_VERSION: "0.102.3"
           HUGO_ENV: "production"
           HUGO_ENABLEGITINFO: "true"
 
