@@ -1,4 +1,4 @@
-baseurl = "https://www.biosugar0.com/"
+baseurl = "https://biosugar0.com/"
 languageCode = "ja"
 DefaultContentLanguage = "ja"
 theme = "hugo-theme-hello-friend-ng"
