@@ -1,6 +1,0 @@
-{
-  "includePaths": ["aqua.yaml"],
-  "extends": [
-    "github>aquaproj/aqua-renovate-config#1.2.6"
-  ]
-}
