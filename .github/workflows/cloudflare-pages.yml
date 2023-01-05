@@ -1,0 +1,34 @@
+name: Cloudflare Pages
+
+on: [push]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+      - run: cd biosugar0 && hugo --gc --minify
+        env:
+          HUGO_VERSION: "0.102.3"
+          HUGO_ENV: "production"
+          HUGO_ENABLEGITINFO: "true"
+
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@1
+        with:
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          projectName: "biosugar0-com"
+          directory: "biosugar0/public"
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
