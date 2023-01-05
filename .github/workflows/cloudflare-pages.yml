@@ -20,7 +20,6 @@ jobs:
           extended: true
       - run: cd biosugar0 && hugo --gc --minify
         env:
-          HUGO_VERSION: "0.102.3"
           HUGO_ENV: "production"
           HUGO_ENABLEGITINFO: "true"
 
