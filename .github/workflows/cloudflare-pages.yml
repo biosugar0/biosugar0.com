@@ -11,6 +11,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - uses: aquaproj/aqua-installer@v2.0.2
+        with:
+          aqua_version: v1.19.0
       - run: cd biosugar0 && hugo
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@1
