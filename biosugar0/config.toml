@@ -25,7 +25,7 @@ buildExpored = false
 canonifyURLs = true
 
 enableRobotsTXT = true
-enableGitInfo   = true
+enableGitInfo   = false
 enableEmoji     = true
 enableMissingTranslationPlaceholders = false
 disableRSS     = false
