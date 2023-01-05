@@ -14,7 +14,12 @@ jobs:
       - uses: aquaproj/aqua-installer@v2.0.2
         with:
           aqua_version: v1.19.0
-      - run: cd biosugar0 && hugo
+      - run: cd biosugar0 && hugo --gc --minify
+        env:
+          HUGO_VERSION: "0.102.3"
+          HUGO_ENV: "production"
+          HUGO_ENABLEGITINFO: "true"
+
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@1
         with:
