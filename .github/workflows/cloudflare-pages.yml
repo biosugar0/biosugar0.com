@@ -21,5 +21,5 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           projectName: "biosugar0-com"
-          directory: "public"
+          directory: "biosugar0/public"
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
