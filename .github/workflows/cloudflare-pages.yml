@@ -1,7 +1,5 @@
 name: Cloudflare Pages
-
 on: [push]
-
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -10,20 +8,19 @@ jobs:
       deployments: write
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           submodules: true
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.102.3'
+          hugo-version: "0.120.0"
           extended: true
       - run: cd biosugar0 && hugo --gc --minify
         env:
-          HUGO_VERSION: "0.102.3"
+          HUGO_VERSION: "0.120.4"
           HUGO_ENV: "production"
           HUGO_ENABLEGITINFO: "true"
-
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@1
         with:
