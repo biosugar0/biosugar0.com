@@ -18,8 +18,7 @@ jobs:
         id: generate-token
         uses: actions/create-github-app-token@v1
         with:
-          # TODO: GitHub App作成後にapp-idを設定
-          app-id: ${{ vars.TAGPR_APP_ID }}
+          app-id: 303997
           private-key: ${{ secrets.TAGPR_APP_PRIVATE_KEY }}
 
       - name: Checkout code
