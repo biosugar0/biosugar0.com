@@ -1,0 +1,26 @@
+name = "biosugar0-com"
+compatibility_date = "2026-02-08"
+
+# Production: カスタムドメインのみ
+workers_dev = false
+preview_urls = false
+
+[[routes]]
+pattern = "www.biosugar0.com"
+custom_domain = true
+
+[assets]
+directory = "biosugar0/public"
+not_found_handling = "404-page"
+html_handling = "auto-trailing-slash"
+
+# Dev環境
+[env.dev]
+name = "biosugar0-com-dev"
+workers_dev = true
+preview_urls = true
+
+[env.dev.assets]
+directory = "biosugar0/public"
+not_found_handling = "404-page"
+html_handling = "auto-trailing-slash"
